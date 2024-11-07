@@ -2,7 +2,7 @@ import java.math.BigDecimal;
 import java.util.Objects;
 
 public class ReduceFraction {
-    public String reduceFraction(double a) {
+    public String reduceFractionObj(double a) {
         String fraction = String.valueOf(a);
         String[] frac = fraction.split("");
         boolean isFraction = false;
